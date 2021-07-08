@@ -1,0 +1,90 @@
+.editorial {
+    padding: 60px 0;
+    min-height: 480px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.editorial .container {
+    text-align: center;
+}
+.editorial .container {
+    width: 100%;
+}
+.editorial__image {
+    max-width: 90%;
+    max-height: 350px;
+}
+.editorial__text {
+    flex: 1;
+}
+.editorial__headline{
+    text-align: left;
+    font-family: PayPalSansSmall-Regular,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #4a4a4a;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+
+}
+.editorial__paragraph{
+    text-align: left;
+    padding-top: 20px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-6{
+    width: 50%;
+}
+@media only screen and (min-width: 752px){
+    .editorial {
+        padding: 40px 60px;
+    }
+}
+@media (min-width: 1152px){
+    .container {
+        max-width: 1192px;
+        margin: auto auto;
+    }
+}
+.editorial__device-image{
+    flex: 1.2;
+}
+
+.theme-background-color-light {
+    background-color: #f4f4f4;
+    max-width: 1600px;
+}
+
+.fine-print {
+    background: black;
+    color: white;
+    font-size: 0.8125rem;
+    line-height: 1.2;
+}
+
+.fine-print .links {
+    display: flex;
+    margin-left: 43px;
+}
+.fine-print .links li {
+    margin-left: 20px;
+}

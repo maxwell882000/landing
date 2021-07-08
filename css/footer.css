@@ -1,0 +1,25 @@
+.fine-print {
+    background: black;
+    color: white;
+    font-size: 0.8125rem;
+    line-height: 1.2;
+}
+.fine-print .bound {
+    padding: 55px 0 70px;
+}
+.fine-print .primary {
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fine-print .brand a {
+    display: block;
+    width: 87px;
+    height: 20px;
+    /*background: url(../images/ms-wordmark-white.svg) no-repeat 0 center;*/
+    background-size: contain;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
