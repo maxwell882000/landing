@@ -102,3 +102,22 @@
 .fine-print .links li {
     margin-left: 20px;
 }
+@media (max-width: 425px) {
+    .editorial__text {
+
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    .editorial__text .editorial__headline{
+        font-size: 2rem;
+    }
+    .editorial__paragraph {
+        font-size: 80%;
+    }
+}
+@media (max-width: 385px) {
+    .editorial__image {
+        max-height: 300px;
+        max-width: 350px;
+    }
+}
