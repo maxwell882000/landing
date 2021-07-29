@@ -4,15 +4,22 @@
     font-size: 0.8125rem;
     line-height: 1.2;
 }
+
 .fine-print .bound {
     padding: 55px 0 70px;
 }
+
 .fine-print .primary {
     margin-bottom: 55px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
+
+.fine-print .copyright {
+    float: left;
+}
+
 .fine-print .brand a {
     display: block;
     width: 87px;
@@ -23,3 +30,28 @@
     overflow: hidden;
     white-space: nowrap;
 }
+
+.fine-print .premium-exclusives span {
+    display: block;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .fine-print  .legal .copyright{
+        text-align: center;
+    }
+    .fine-print .copyright{
+        float: none;
+    }
+
+    .fine-print .links {
+        display: block;
+    }
+
+    .fine-print .links li {
+        margin-bottom: 10px;
+    }
+}
+
+
