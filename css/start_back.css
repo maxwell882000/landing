@@ -99,9 +99,16 @@
     .tagline span , .choose_us {
         font-size:  1.8em;;
     }
+    .masthead{
+        min-height: calc(70vh);
+    }
 }
 
 @media (max-width: 335px) {
+
+    .masthead{
+        min-height: calc(60vh);
+    }
     .tagline span , .choose_us {
         font-size:  1.5em;;
     }
