@@ -95,7 +95,7 @@
     margin-bottom: 7%;
 }
 
-@media (max-width: 424px) and (min-width: 336px) {
+@media (max-width: 570px) and (min-width: 340px) {
     .tagline span , .choose_us {
         font-size:  1.8em;;
     }
@@ -104,7 +104,7 @@
     }
 }
 
-@media (max-width: 335px) {
+@media (max-width: 339px) {
 
     .masthead{
         min-height: calc(60vh);
