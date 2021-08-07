@@ -155,7 +155,13 @@
         font-size: 80%;
     }
 }
-@media (max-width: 385px) {
+@media (max-width: 475px) {
+    .editorial__image {
+        max-height: 300px;
+        max-width: 350px;
+    }
+}
+@media (max-width: 425px) {
     .editorial__image {
         max-height: 300px;
         max-width: 300px;
